@@ -1,0 +1,88 @@
+:root {
+  --text-color: #2e245c; /*колір тексту*/
+}
+/*
+body {
+  min-height: 100vh;
+  background: repeating-linear-gradient(
+    #bbb 1px,
+    transparent 2px,
+    transparent 28px 
+  );
+  repeating-linear-gradient(
+      90deg,
+      #bbb 1px,
+      transparent 2px,
+      transparent 28px
+    ); 
+}*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-right: 2px solid rgb(252, 37, 37);
+  min-height: 100vh;
+  background: repeating-linear-gradient(
+    #bbb 1px,
+    transparent 2px,
+    transparent 28px
+  );
+}
+/*====Текст роботи====*/
+.page {
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.date {
+  text-align: center;
+  font-family: 'Bad script', cursive, Courier, monospace;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 22pt;
+  line-height: 1.19;
+  margin-top: 7px;
+}
+/*===Домашня робота===*/
+.title {
+  text-align: center;
+  font-family: 'Pacifico', cursive, Courier, monospace;
+  font-weight: 400;
+  font-size: 20pt;
+  line-height: 1.19;
+  color: var(--text-color);
+  margin-top: 21px;
+}
+
+.text-content {
+  margin-top: 40px;
+  color: var(--text-color);
+}
+
+.text {
+  text-align: justify;
+  text-indent: 40px;
+  font-family: 'Bad script', cursive, Courier, monospace;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 2.11;
+  letter-spacing: 0.1em;
+}
+
+.grade {
+  font-family: 'Bad script', Courier, monospace;
+  font-weight: 400;
+  color: red;
+  font-size: 30pt;
+  margin-left: 200px;
+}
