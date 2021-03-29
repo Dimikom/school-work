@@ -40,11 +40,7 @@ p {
   align-items: center;
   background-color: #fff;
   height: 1500px;
-  background: repeating-linear-gradient(
-    #bbb 1px,
-    transparent 2px,
-    transparent 28px
-  );
+  background: repeating-linear-gradient(#bbb 1px, #fff 2px, #fff 28px);
   padding: 20px 20px;
   outline: 1px solid rgb(224, 224, 224);
 }
