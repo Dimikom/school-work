@@ -1,8 +1,11 @@
 :root {
   --text-color: #2e245c; /*колір тексту*/
 }
-/*
+
 body {
+  background-color: grey; /*Чому цей колір перебиває більшу специфічність у класів .container та .page ??? */
+}
+/*
   min-height: 100vh;
   background: repeating-linear-gradient(
     #bbb 1px,
@@ -28,6 +31,7 @@ p {
 .container {
   width: 900px;
   margin: 0 auto;
+  background-color: #fff;
 }
 /*====Текст роботи====*/
 .page {
